@@ -1,0 +1,41 @@
+/*padding: 20px;
+padding-block: 10px;
+padding-inline: 40px;
+*/
+
+.row{
+    padding: 20px;
+}
+div{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/*estilo fotoPerfil*/
+@media (min-width: 576px){
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 2%;
+        top: 250px;
+    }
+}
+
+@media (max-width: 575px){
+    #fotoPerfil{
+        position: absolute;
+        width: 24%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 5%;
+        top: 365px;
+    }
+}
+
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 20%;
+}
